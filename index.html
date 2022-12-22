@@ -8,16 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b651ee6230.js" crossorigin="anonymous"></script>
 
     <title>Florante Singcak</title>
   </head>
   <body>
-    <h1>We can do this!</h1>
-  
+   
   <!--navigation-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+        <a class="navbar-brand" href="#">We can do this!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,27 +28,18 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
 
@@ -65,12 +56,12 @@
 
 <!--work-->
 
-<div class="container">
+<div class="container" id="projects">
+  <h2>My Projects</h2>
   <div class="row">
     <div class="col-sm">
-      One of three columns
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./images/01-html-css-git-challenge-demo.png" alt="Screenshot of Horiseon webpage">
+        <img class="card-img-top" src="./images/horiseon1.jpg" alt="Screenshot of Horiseon webpage">
         <div class="card-body">
           <h5 class="card-title">Horizon Website Project</h5>
           <p class="card-text">Edited client website to meet accessibility standards.</p>
@@ -79,9 +70,8 @@
       </div>
     </div>
     <div class="col-sm">
-      One of three columns
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./images/Screenshot_20221222_030328.png" alt="Screenshot of portfolio webpage">
+        <img class="card-img-top" src="./images/portf1.jpg" alt="Screenshot of portfolio webpage">
         <div class="card-body">
           <h5 class="card-title">Portfolio Page</h5>
           <p class="card-text">Created first portfolio page using Flexbox</p>
@@ -90,7 +80,6 @@
       </div>
     </div>
     <div class="col-sm">
-      One of three columns
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="./images/fs.jpg" alt="FS card logo">
         <div class="card-body">
@@ -106,36 +95,84 @@
 <div class="container">
     <div class="row">
       <div class="col">
-        one line space
       </div>
     </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
 </div>
 
 <!--skills and about-->
 
 
 <div class="container">
-    <div class="row">
+  <h3></h3>
+    <div class="row" id="skills">
       <div class="col">
-        list of skills
+        <h4>List of Skills</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          
+        </ul>
       </div>
-      <div class="col">
-        about me
+      <div class="col" id="aboutme">
+        <h5>About Me</h5>
+          <p>This section reserved for summary paragraph about me. </p>
+          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="contact">
     <div class="row">
+      <div class="col" id="contactme">
+        <h6>Contact Me</h6>
+      </div>
+    </div>
+    <div class="row social">
       <div class="col">
-        one line space
+          <p><i class="fa-brands fa-twitter fa-lg"></i></p>
+      </div>
+      <div class="col">
+          <p><i class="fa-brands fa-github fa-lg"></i></p>
+      </div>
+      <div class="col">
+          <p><i class="fa-solid fa-envelope fa-lg"></i></p>
+      </div>
+      <div class="col">
+            <p><i class="fa-solid fa-phone fa-lg"></i></p>
       </div>
     </div>
 </div>
 
 <!--footer-->
 
-
+<footer>
+  <div class="container footer">
+    <div class="row">
+      <div class="col">
+        <p>:: Copyright FPS 2022 ::</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

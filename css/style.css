@@ -1,8 +1,18 @@
-h1{
+h1, h2, h3, h6{
     color: white;
-
+    margin-bottom: 35px;
 }
 
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+
+.navbar-brand{
+    font-style: italic;
+}
+  
 
 body{
     background-color: rgb(52, 3, 3);
@@ -12,6 +22,7 @@ body{
 
 .jumbotron{
     background-color: rgb(160, 93, 93);
+    height: 250px;
 }
 
 .col-sm{
@@ -21,9 +32,35 @@ body{
 
 .card-body{
     color:rgb(52, 3, 3);
+    
+}
+
+#aboutme p{
+    font-size: 0.75em;
+}
+
+#contactme{
+    font-size:3em;
+
+}
+
+#contact {
+    background-color: rgb(160, 93, 93);
+}
+h6 {
+    background-color: rgb(160, 93, 93);
+    text-align: center;
+    font-size: .9em;
 }
 
 .btn {
     background-color: crimson;
     border-color: crimson;
 }
+
+.footer{
+    background-color: rgb(52, 3, 3);
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+  }
