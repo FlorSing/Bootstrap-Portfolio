@@ -3,18 +3,27 @@ h1{
 
 }
 
-img {
-    display: inline-block;
-    position: top;
-
-}
 
 body{
     background-color: rgb(52, 3, 3);
-    font color: white;
+    color: white;
     font-family: georgia;
 }   
 
 .jumbotron{
     background-color: rgb(160, 93, 93);
+}
+
+.col-sm{
+    
+    margin-bottom: 20px;
+}
+
+.card-body{
+    color:rgb(52, 3, 3);
+}
+
+.btn {
+    background-color: crimson;
+    border-color: crimson;
 }
