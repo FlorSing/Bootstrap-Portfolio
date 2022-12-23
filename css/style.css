@@ -35,8 +35,29 @@ body{
     
 }
 
+.card-img-top{
+    width: 17.8rem;
+    height: 18rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.personal-info{
+    margin-bottom: 30px;
+}
+
+.list-group{
+    color: rgb(86, 25, 25);
+}
+
 #aboutme p{
-    font-size: 0.75em;
+    font-size: 1em;
+}
+
+#CV{
+    display: flex;
+    align-items: right;
+    justify-items: right;
 }
 
 #contactme{
@@ -44,14 +65,19 @@ body{
 
 }
 
+
+
 #contact {
     background-color: rgb(160, 93, 93);
+    align-items: center;
 }
 h6 {
     background-color: rgb(160, 93, 93);
-    text-align: center;
+    text-align: left;
     font-size: .9em;
 }
+
+
 
 .btn {
     background-color: crimson;
