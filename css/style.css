@@ -30,6 +30,12 @@ body{
     margin-bottom: 20px;
 }
 
+.work-card{
+    width: 18rem; 
+    height: 32rem;
+
+}
+
 .card-body{
     color:rgb(52, 3, 3);
     
@@ -40,6 +46,11 @@ body{
     height: 18rem;
     background-position: center;
     background-size: cover;
+}
+
+.card-img-skill {
+    width: 75px;
+    height: 75px;
 }
 
 .card-img-me{
@@ -53,9 +64,6 @@ body{
     padding: 20px;
 }
 
-.list-group{
-    color: rgb(86, 25, 25);
-}
 
 #aboutme p{
     font-size: 1em;
