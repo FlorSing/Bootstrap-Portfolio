@@ -42,8 +42,9 @@ body{
     background-size: cover;
 }
 
-.personal-info{
-    margin-bottom: 30px;
+#personal-info{
+    background-color: rgb(117, 4, 6);
+    padding: 20px;
 }
 
 .list-group{
