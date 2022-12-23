@@ -1,4 +1,4 @@
-h1, h2, h3, h6{
+h1, h2, h3, h4, h5, h6{
     color: white;
     margin-bottom: 35px;
 }
@@ -40,6 +40,12 @@ body{
     height: 18rem;
     background-position: center;
     background-size: cover;
+}
+
+.card-img-me{
+    padding: 5px;
+    margin-bottom: 15px;
+    
 }
 
 #personal-info{
@@ -91,3 +97,4 @@ h6 {
     margin: 10px;
     padding: 10px;
   }
+
