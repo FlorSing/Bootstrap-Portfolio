@@ -3,7 +3,18 @@ h1, h2, h4, h5 {
     margin-bottom: 35px;
 }
 
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #442c2c !important;
 
+    background-size: cover;
+    z-index: 10;
+  }
+
+.customNav a {
+    color: white !important;
+  }
 
 .navbar-nav{
     margin-left: auto;
@@ -23,8 +34,17 @@ body{
 }   
 
 .jumbotron{
+    background-image: url("../images/DARK-REDcodingbackground.png");
+    background-size: contain;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.display-4, .lead{
+    margin-top: 80px;
     background-color: rgb(160, 93, 93);
-    height: 250px;
 }
 
 .col-sm{
@@ -32,6 +52,9 @@ body{
     margin-bottom: 20px;
 }
 
+#projects{
+    margin-top: 25px;
+}
 .work-card{
     width: 18rem; 
     height: 32rem;
@@ -99,10 +122,11 @@ h6 {
     border-color: crimson;
 }
 
-.footer{
-    background-color: rgb(52, 3, 3);
-    text-align: right;
+footer{
+    background-color: #442c2c;
+    text-align: center;
     margin: 10px;
     padding: 10px;
   }
+
 
